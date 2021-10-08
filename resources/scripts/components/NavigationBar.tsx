@@ -68,9 +68,6 @@ export default () => {
                     <a href={'/auth/logout'}>
                         <FontAwesomeIcon icon={faSignOutAlt}/>
                     </a>
-                    <a href={'https://argonhosting.net/index.php?rp=/login'}>
-                        <FontAwesomeIcon icon={faShoppingCart}/>
-                    </a>
                 </RightNavigation>
             </div>
         </Navigation>
