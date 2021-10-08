@@ -60,10 +60,7 @@
                                     <img src="https://www.gravatar.com/avatar/{{ md5(strtolower(Auth::user()->email)) }}?s=160" class="user-image" alt="User Image">
                                     <span class="hidden-xs">{{ Auth::user()->name_first }} {{ Auth::user()->name_last }}</span>
                                 </a>
-                            </li>
-                            
-                                <li><a href="https://argonhosting.net/admin/login.php?redirect=%2Fadmin%2F" data-toggle="tooltip" data-placement="bottom" title="View Billing Admin"><i class="fa fa-shopping-cart"></i></a></li>
-                            </li>
+
                             <li>
                                 <li><a href="{{ route('index') }}" data-toggle="tooltip" data-placement="bottom" title="Exit Admin Control"><i class="fa fa-server"></i></a></li>
                             </li>
