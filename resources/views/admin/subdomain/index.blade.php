@@ -27,16 +27,18 @@
                         <tbody>
                         <tr>
                             
-                            <th>Id</th>
+                            
                             <th>User</th>
+			    <th>date</th>
                             <th>Server</th>
                             <th>Actions</th>
                             <th>File</th>
                         </tr>
                         @foreach ($domains as $domain)
                             <tr>
-                                <td>{{$domain['id']}}</td>
+
                                 <td>{{$domain['user_id']}}</td>
+                                <td>{{$domain['created_at']}}</td>
                                 <td>{{$domain['server_id']}}</td>
                                 <td>{{$domain['action']}}</td>
                                 <td>{{$domain['metadata']}}</td>
