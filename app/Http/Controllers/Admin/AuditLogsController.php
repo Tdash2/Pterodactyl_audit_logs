@@ -9,7 +9,7 @@ use Prologue\Alerts\AlertsMessageBag;
 use Pterodactyl\Http\Controllers\Controller;
 use Pterodactyl\Contracts\Repository\SettingsRepositoryInterface;
 
-class SubDomainController extends Controller
+class AuditLogsController extends Controller
 {
     /**
      * @var \Prologue\Alerts\AlertsMessageBag
@@ -37,24 +37,10 @@ class SubDomainController extends Controller
      */
     public function index()
     {
-        $domains = DB::table('audit_logs')->get();
-        $subdomains = DB::table('users')->get();
-
-        $domains = json_decode(json_encode($domains), true);
-        $subdomains = json_decode(json_encode($subdomains), true);
-
-        
-
-        return view('admin.subdomain.index', [
-            'settings' => [
-                'cf_email' => $this->settings->get('settings::subdomain::cf_email', ''),
-                'cf_api_key' => $this->settings->get('settings::subdomain::cf_api_key', ''),
-                'max_subdomain' => $this->settings->get('settings::subdomain::max_subdomain', ''),
-            ],
-            'domains' => $domains,
-            'subdomains' => $subdomains
+        $logs = DB::table('audit_logs')->get();
+        $logs = json_decode(json_encode($logs), true);
+        return view('admin.logs.index', [
+            'logs' => $logs,
         ]);
     }
-
-    
 }
