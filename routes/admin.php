@@ -245,6 +245,6 @@ Route::group(['prefix' => 'nests'], function () {
 |
 */
 Route::group(['prefix' => 'logs'], function () {
-    Route::get('/', 'SubDomainController@index')->name('admin.subdomain');
+    Route::get('/', 'AuditLogsController@index')->name('admin.auditlogs');
 
 });
