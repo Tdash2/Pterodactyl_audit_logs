@@ -238,10 +238,10 @@ Route::group(['prefix' => 'nests'], function () {
 
 /*
 |--------------------------------------------------------------------------
-| SubDomain Controller Routes
+| auditlogs Controller Routes
 |--------------------------------------------------------------------------
 |
-| Endpoint: /admin/subdomain
+| Endpoint: /admin/auditlogs
 |
 */
 Route::group(['prefix' => 'logs'], function () {
