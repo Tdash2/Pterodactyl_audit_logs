@@ -10,4 +10,4 @@ A simple Adon to [Pterodactyl Panel](https://github.com/pterodactyl/panel) That 
 - Manual Instalation Download the [latest verson](https://github.com/Tdash2/Pterodactyl_audit_logs/releases/) then upload the files to your panel home directiry (It is normaly in ``/var/www/pterodactyl/``) then run build the panel (``cd /var/www/pterodactyl && yarn run build:production``)
 
 ## Support: 
-Join the support discord 
+Join the [support discord](https://discord.gg/vTtBhRWjDf)
