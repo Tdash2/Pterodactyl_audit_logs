@@ -1,5 +1,6 @@
 # Pterodactyl Audit Logs
-Adds audit logs to the admin panel 
+A simple Adon to [Pterodactyl Panel](https://github.com/pterodactyl/panel) That adds audit logs to the admin control panel.
+
 ![Image](https://cdn.discordapp.com/attachments/772887124554678282/910242971134332990/Screenshot_2021-11-16_125846.png)
 
 
