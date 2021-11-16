@@ -103,7 +103,7 @@
                         </li>
                         <li class="{{ ! starts_with(Route::currentRouteName(), 'admin.subdomain') ?: 'active' }}">
 			    <a href="{{ route('admin.auditlogs') }}">
-				<i class="fa fa-wrench"></i> <span>Audit Logs</span>
+				<i class="fa fa-id-card-o"></i> <span>Audit Logs</span>
 			    </a>
 			</li>
                         <li class="{{ ! starts_with(Route::currentRouteName(), 'admin.nodes') ?: 'active' }}">
