@@ -10,7 +10,6 @@ use Pterodactyl\Http\Controllers\Controller;
 use Pterodactyl\Contracts\Repository\SettingsRepositoryInterface;
 use Pterodactyl\Models\Server;
 
-
 class AuditLogsController extends Controller
 {
     public function index(Server $server)
