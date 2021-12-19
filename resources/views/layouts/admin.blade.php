@@ -101,7 +101,7 @@
                                 <i class="fa fa-globe"></i> <span>Locations</span>
                             </a>
                         </li>
-                        <li class="{{ ! starts_with(Route::currentRouteName(), 'admin.subdomain') ?: 'active' }}">
+                        <li class="{{ ! starts_with(Route::currentRouteName(), 'admin.auditlogs') ?: 'active' }}">
 			    <a href="{{ route('admin.auditlogs') }}">
 				<i class="fa fa-id-card-o"></i> <span>Audit Logs</span>
 			    </a>
