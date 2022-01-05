@@ -5,7 +5,7 @@ A simple addon to [Pterodactyl Panel](https://github.com/pterodactyl/panel) That
 
 
 ## Installation: 
-- One Command Instalation Just run ``cd /var/www/pterodactyl && curl -Lo logs.zip https://github.com/Tdash2/Pterodactyl_audit_logs/releases/download/1.1.0/AuditLogs.zip && unzip -o logs.zip && rm -rf logs.zip && yarn run build:production``  in SSH and the addon will be installed.
+- One Command Instalation Just run ``cd /var/www/pterodactyl && curl -Lo logs.zip https://github.com/Tdash2/Pterodactyl_audit_logs/releases/latest/download/logs.zip && unzip -o logs.zip && rm -rf logs.zip && yarn run build:production``  in SSH and the addon will be installed.
 
 - Manual Instalation Download the [latest verson](https://github.com/Tdash2/Pterodactyl_audit_logs/releases/) then upload the files to your panel home directiry (It is normaly in ``/var/www/pterodactyl/``) then run build the panel (``cd /var/www/pterodactyl && yarn run build:production``)
 
